@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { fetchMenus, deleteMenu } from "../services/menuService";
-import { PlusIcon, PencilIcon, TrashIcon } from "@heroicons/react/24/solid";
+import { PlusIcon, TrashIcon } from "@heroicons/react/24/solid";
 
 interface Menu {
   id: string;
